@@ -1,0 +1,2 @@
+# Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2
+Microsoft Flight Simulator 2020 and 2024 Addon Publisher v2 is a tool which allows users to gather a full list of the Microsoft Flight Simulator 2000 and/or 2024 addons they have installed on their local machine and share them using different platforms. The tool's aim is to allow users to enjoy multiplayer flights by having matching addons.
