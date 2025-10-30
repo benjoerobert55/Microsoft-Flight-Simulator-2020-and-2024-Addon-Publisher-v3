@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MSFSAddonPublisher.Tests.Unit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dde70283828749913a1ace6a638da67737b55a27")]
 [assembly: System.Reflection.AssemblyProductAttribute("MSFSAddonPublisher.Tests.Unit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MSFSAddonPublisher.Tests.Unit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Unit/MSFSAddonPublisher.Tests.Unit.csproj": {}
+    "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Unit/MSFSAddonPublisher.Tests.Unit.csproj": {}
   },
   "projects": {
-    "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Unit/MSFSAddonPublisher.Tests.Unit.csproj": {
+    "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Unit/MSFSAddonPublisher.Tests.Unit.csproj",
-        "projectName": "MSFSAddonPublisher.Tests.Unit",
-        "projectPath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Unit/MSFSAddonPublisher.Tests.Unit.csproj",
-        "packagesPath": "/Users/richardadams/.nuget/packages/",
-        "outputPath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Unit/obj/",
+        "projectUniqueName": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj",
+        "projectName": "MSFSAddonPublisher.Domain",
+        "projectPath": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/richardadams/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -32,11 +32,86 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Unit/MSFSAddonPublisher.Tests.Unit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Unit/MSFSAddonPublisher.Tests.Unit.csproj",
+        "projectName": "MSFSAddonPublisher.Tests.Unit",
+        "projectPath": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Unit/MSFSAddonPublisher.Tests.Unit.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Unit/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj": {
+                "projectPath": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -75,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
