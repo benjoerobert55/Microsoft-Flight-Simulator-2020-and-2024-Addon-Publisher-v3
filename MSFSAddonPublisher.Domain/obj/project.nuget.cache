@@ -1,17 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "6Mgf3riS+JX/n7iuMFmWUs6RdnjsoJFGFqhoOLhScr53fxE4uhQt1H0dQqtMAB/pR1NXaBqo3MACPHy6j/AwCA==",
+  "dgSpecHash": "MXaFqsy25p4=",
   "success": true,
-  "projectFilePath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj",
+  "projectFilePath": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj",
   "expectedPackageFiles": [
-    "/Users/richardadams/.nuget/packages/microsoft.bcl.asyncinterfaces/9.0.10/microsoft.bcl.asyncinterfaces.9.0.10.nupkg.sha512",
-    "/Users/richardadams/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
-    "/Users/richardadams/.nuget/packages/system.io.pipelines/9.0.10/system.io.pipelines.9.0.10.nupkg.sha512",
-    "/Users/richardadams/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
-    "/Users/richardadams/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/Users/richardadams/.nuget/packages/system.text.encodings.web/9.0.10/system.text.encodings.web.9.0.10.nupkg.sha512",
-    "/Users/richardadams/.nuget/packages/system.text.json/9.0.10/system.text.json.9.0.10.nupkg.sha512",
-    "/Users/richardadams/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "/home/runner/.nuget/packages/microsoft.bcl.asyncinterfaces/9.0.10/microsoft.bcl.asyncinterfaces.9.0.10.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.io.pipelines/9.0.10/system.io.pipelines.9.0.10.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.text.encodings.web/9.0.10/system.text.encodings.web.9.0.10.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.text.json/9.0.10/system.text.json.9.0.10.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

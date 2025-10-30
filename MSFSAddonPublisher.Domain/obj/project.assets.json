@@ -411,19 +411,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/richardadams/.nuget/packages/": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj",
+      "projectUniqueName": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj",
       "projectName": "MSFSAddonPublisher.Domain",
-      "projectPath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj",
-      "packagesPath": "/Users/richardadams/.nuget/packages/",
-      "outputPath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/obj/",
+      "projectPath": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/MSFSAddonPublisher.Domain.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/richardadams/.nuget/NuGet/NuGet.Config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -441,7 +441,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net7.0": {
@@ -463,12 +469,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.305/RuntimeIdentifierGraph.json"
       }
     }
   }

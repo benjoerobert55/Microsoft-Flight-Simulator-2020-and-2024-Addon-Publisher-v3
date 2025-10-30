@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MSFSAddonPublisher.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f63161558942788113818ad3c0638c4f6f438725")]
 [assembly: System.Reflection.AssemblyProductAttribute("MSFSAddonPublisher.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MSFSAddonPublisher.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
