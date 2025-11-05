@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "puad0n6bH8lWee+9NhP2xip0Fy/aQAJGsqwsVA6MX9Q9e4hMZ+7Ai5t+2Ga9SLGIF0QoFYRa6btlldqXvcnaUg==",
+  "dgSpecHash": "2EeLWtIGRUw=",
   "success": true,
-  "projectFilePath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.Tests.Integration/MSFSAddonPublisher.Tests.Integration.csproj",
+  "projectFilePath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v3/MSFSAddonPublisher.Tests.Integration/MSFSAddonPublisher.Tests.Integration.csproj",
   "expectedPackageFiles": [
     "/Users/richardadams/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/richardadams/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",
@@ -95,7 +95,9 @@
     "/Users/richardadams/.nuget/packages/xunit.core/2.4.2/xunit.core.2.4.2.nupkg.sha512",
     "/Users/richardadams/.nuget/packages/xunit.extensibility.core/2.4.2/xunit.extensibility.core.2.4.2.nupkg.sha512",
     "/Users/richardadams/.nuget/packages/xunit.extensibility.execution/2.4.2/xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "/Users/richardadams/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+    "/Users/richardadams/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "fPO1kqYVU6APFcc5Z6Ic0pjCkD3zzkmUk+uhU0511gIHfJrZ7UBeB8RwQrOLlhjnzvu8HForYHA32EWspmR0Yw==",
+  "dgSpecHash": "kiZ+7Qytdl0=",
   "success": true,
-  "projectFilePath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v2/MSFSAddonPublisher.UI/MSFSAddonPublisher.UI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v3/MSFSAddonPublisher.UI/MSFSAddonPublisher.UI.csproj",
+  "expectedPackageFiles": [
+    "/Users/richardadams/.nuget/packages/serilog/4.1.0/serilog.4.1.0.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/serilog.sinks.debug/3.0.0/serilog.sinks.debug.3.0.0.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/serilog.sinks.file/6.0.0/serilog.sinks.file.6.0.0.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/system.io.pipelines/9.0.10/system.io.pipelines.9.0.10.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/system.text.encodings.web/9.0.10/system.text.encodings.web.9.0.10.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/system.text.json/9.0.10/system.text.json.9.0.10.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/microsoft.netcore.app.ref/8.0.21/microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/microsoft.windowsdesktop.app.ref/8.0.21/microsoft.windowsdesktop.app.ref.8.0.21.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.21/microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.21/microsoft.netcore.app.host.osx-arm64.8.0.21.nupkg.sha512"
+  ],
   "logs": []
 }

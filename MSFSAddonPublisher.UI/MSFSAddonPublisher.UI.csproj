@@ -6,7 +6,19 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <LangVersion>13</LangVersion>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.Debug" Version="3.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MSFSAddonPublisher.Domain\MSFSAddonPublisher.Domain.csproj" />
+    <ProjectReference Include="..\MSFSAddonPublisher.Application\MSFSAddonPublisher.Application.csproj" />
+    <ProjectReference Include="..\MSFSAddonPublisher.Infrastructure\MSFSAddonPublisher.Infrastructure.csproj" />
+  </ItemGroup>
 
 </Project>
