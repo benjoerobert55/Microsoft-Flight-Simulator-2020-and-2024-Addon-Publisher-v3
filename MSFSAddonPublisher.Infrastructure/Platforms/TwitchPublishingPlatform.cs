@@ -103,6 +103,7 @@ public sealed class TwitchPublishingPlatform : IPublishingPlatform
         {
             lines.Add($"- {a.Metadata.Title} — v{a.Metadata.Version}");
         }
+
         return string.Join("\n", lines);
     }
 }
