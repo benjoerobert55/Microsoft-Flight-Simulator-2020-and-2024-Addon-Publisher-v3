@@ -41,9 +41,19 @@ trim_trailing_whitespace = false
 indent_size = 4
 tab_width = 4
 
-# New line preferences
-end_of_line = crlf
+# New line preferences (LF for cross-platform compatibility)
+end_of_line = lf
 insert_final_newline = true
+
+# C# 13 and nullable reference types
+dotnet_analyzer_diagnostic_category-Nullable.severity = warning
+dotnet_diagnostic_CS8600.severity = warning
+dotnet_diagnostic_CS8601.severity = warning
+dotnet_diagnostic_CS8602.severity = warning
+dotnet_diagnostic_CS8603.severity = warning
+dotnet_diagnostic_CS8604.severity = warning
+dotnet_diagnostic_CS8618.severity = warning
+dotnet_diagnostic_CS8625.severity = warning
 
 #### .NET Coding Conventions ####
 

@@ -1,0 +1,32 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>13</LangVersion>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Benjoe Roberts</Authors>
+    <Company>Benjoe Roberts</Company>
+    <Product>MSFS Addon Publisher</Product>
+    <Copyright>Copyright © 2025 Benjoe Roberts</Copyright>
+    <Version>1.0.0</Version>
+    <Description>A comprehensive tool for managing and publishing Microsoft Flight Simulator addons to various platforms including Discord and Twitch.</Description>
+    <PackageProjectUrl>https://github.com/benjoerobert55/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v3</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/benjoerobert55/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v3</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>msfs;flight-simulator;addon;publisher;discord;twitch;aviation</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Version 1.0.0 - Initial release with core domain model and infrastructure.</PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+</Project>
