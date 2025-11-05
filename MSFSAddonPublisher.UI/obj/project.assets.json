@@ -130,7 +130,10 @@
       },
       "MSFSAddonPublisher.Infrastructure/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MSFSAddonPublisher.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MSFSAddonPublisher.Infrastructure.dll": {}
         },
@@ -409,13 +412,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -447,18 +444,6 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.21, 8.0.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[8.0.21, 8.0.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.21, 8.0.21]"
-          },
-          {
             "name": "Microsoft.WindowsDesktop.App.Ref",
             "version": "[8.0.21, 8.0.21]"
           }
@@ -466,12 +451,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.121/libexec/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

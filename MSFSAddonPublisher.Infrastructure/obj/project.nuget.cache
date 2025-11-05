@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RVa5TxwKm1g=",
+  "dgSpecHash": "qbo9ZsAyHbc7ViEfL8lyPF5oSksr+9iDq2jBd6PbG9zUdLlaT3X4DacPK2AhBwrCv+COzuC/gJKQtXKkkk5ZrQ==",
   "success": true,
   "projectFilePath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v3/MSFSAddonPublisher.Infrastructure/MSFSAddonPublisher.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "/Users/richardadams/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/richardadams/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+    "/Users/richardadams/.nuget/packages/system.io.pipelines/9.0.10/system.io.pipelines.9.0.10.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/system.text.encodings.web/9.0.10/system.text.encodings.web.9.0.10.nupkg.sha512",
+    "/Users/richardadams/.nuget/packages/system.text.json/9.0.10/system.text.json.9.0.10.nupkg.sha512"
   ],
   "logs": []
 }
