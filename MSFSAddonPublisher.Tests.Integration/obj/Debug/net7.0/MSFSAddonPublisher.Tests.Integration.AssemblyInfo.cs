@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A comprehensive tool for managing and publishing Microsoft Flight Simulator addon" +
     "s to various platforms including Discord and Twitch.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20179d88f90bc92ab649e17af7056a6adc178411")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MSFS Addon Publisher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MSFSAddonPublisher.Tests.Integration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
