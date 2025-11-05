@@ -1,4 +1,5 @@
 using System.Net.Http.Json;
+using Microsoft.Extensions.Options;
 using MSFSAddonPublisher.Domain.Entities;
 using MSFSAddonPublisher.Domain.Interfaces;
 using MSFSAddonPublisher.Domain.ValueObjects;
@@ -22,17 +23,17 @@ public sealed class TwitchPublishingPlatform : IPublishingPlatform
     /// <param name="options">Options or environment-provided configuration.</param>
     /// <exception cref="ArgumentNullException">Thrown when httpClient is null.</exception>
     /// <exception cref="InvalidOperationException">Thrown when endpoint URL is not configured.</exception>
-    public TwitchPublishingPlatform(HttpClient httpClient, TwitchPublishingOptions? options = null)
+    public TwitchPublishingPlatform(HttpClient httpClient, IOptions<TwitchPublishingOptions> options)
     {
         _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
-        options ??= TwitchPublishingOptions.FromEnvironment();
-        if (string.IsNullOrWhiteSpace(options.EndpointUrl))
+        var optionsValue = options?.Value ?? TwitchPublishingOptions.FromEnvironment();
+        if (string.IsNullOrWhiteSpace(optionsValue.EndpointUrl))
         {
             throw new InvalidOperationException("Twitch endpoint URL is not configured. Set TWITCH_ENDPOINT_URL or provide via options.");
         }
 
-        _endpointUrl = options.EndpointUrl!;
-        _channel = options.Channel;
+        _endpointUrl = optionsValue.EndpointUrl!;
+        _channel = optionsValue.Channel;
     }
 
     /// <inheritdoc />
@@ -116,12 +117,12 @@ public sealed class TwitchPublishingOptions
     /// <summary>
     /// Endpoint URL to post messages to (webhook, proxy, or bot gateway). Required for Phase 2.
     /// </summary>
-    public string? EndpointUrl { get; init; }
+    public string? EndpointUrl { get; set; }
 
     /// <summary>
     /// Optional channel identifier/slug.
     /// </summary>
-    public string? Channel { get; init; }
+    public string? Channel { get; set; }
 
     /// <summary>
     /// Creates options from environment variables.
