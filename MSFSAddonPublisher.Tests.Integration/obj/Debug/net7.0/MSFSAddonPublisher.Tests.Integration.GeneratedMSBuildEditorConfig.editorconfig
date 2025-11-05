@@ -11,5 +11,3 @@ build_property.RootNamespace = MSFSAddonPublisher.Tests.Integration
 build_property.ProjectDir = /Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v3/MSFSAddonPublisher.Tests.Integration/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.EffectiveAnalysisLevelStyle = 9.0
-build_property.EnableCodeStyleSeverity = 
