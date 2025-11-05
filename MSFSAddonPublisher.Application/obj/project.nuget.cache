@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NmXiJtiDPnoD0kRrE9LMBOfk5HiBebr2J4ZooOolsnWUklZ3YtGAR+gBtYeff0XjdniJD0/MGAXzCJWZs0RCdw==",
+  "dgSpecHash": "L9gWQRKr3r4=",
   "success": true,
   "projectFilePath": "/Users/richardadams/sourcecode/Microsoft-Flight-Simulator-2020-and-2024-Addon-Publisher-v3/MSFSAddonPublisher.Application/MSFSAddonPublisher.Application.csproj",
-  "expectedPackageFiles": [
-    "/Users/richardadams/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/richardadams/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

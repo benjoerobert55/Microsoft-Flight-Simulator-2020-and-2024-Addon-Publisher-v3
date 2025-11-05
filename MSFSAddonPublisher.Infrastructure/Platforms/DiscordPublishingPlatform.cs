@@ -1,4 +1,5 @@
 using System.Net.Http.Json;
+using Microsoft.Extensions.Options;
 using MSFSAddonPublisher.Domain.Entities;
 using MSFSAddonPublisher.Domain.Interfaces;
 using MSFSAddonPublisher.Domain.ValueObjects;
@@ -22,17 +23,17 @@ public sealed class DiscordPublishingPlatform : IPublishingPlatform
     /// <param name="options">Options containing webhook configuration. If null, falls back to environment variables.</param>
     /// <exception cref="ArgumentNullException">Thrown when httpClient is null.</exception>
     /// <exception cref="InvalidOperationException">Thrown when webhook URL is not provided in options or environment.</exception>
-    public DiscordPublishingPlatform(HttpClient httpClient, DiscordPublishingOptions? options = null)
+    public DiscordPublishingPlatform(HttpClient httpClient, IOptions<DiscordPublishingOptions> options)
     {
         _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
-        options ??= DiscordPublishingOptions.FromEnvironment();
-        if (string.IsNullOrWhiteSpace(options.WebhookUrl))
+        var optionsValue = options?.Value ?? DiscordPublishingOptions.FromEnvironment();
+        if (string.IsNullOrWhiteSpace(optionsValue.WebhookUrl))
         {
             throw new InvalidOperationException("Discord webhook URL is not configured. Set it via options or DISCORD_WEBHOOK_URL environment variable.");
         }
 
-        _webhookUrl = options.WebhookUrl!;
-        _username = options.Username;
+        _webhookUrl = optionsValue.WebhookUrl!;
+        _username = optionsValue.Username;
     }
 
     /// <inheritdoc />
@@ -121,12 +122,12 @@ public sealed class DiscordPublishingOptions
     /// <summary>
     /// Discord webhook URL. Required.
     /// </summary>
-    public string? WebhookUrl { get; init; }
+    public string? WebhookUrl { get; set; }
 
     /// <summary>
     /// Optional username override shown in the webhook message.
     /// </summary>
-    public string? Username { get; init; }
+    public string? Username { get; set; }
 
     /// <summary>
     /// Creates options from environment variables.

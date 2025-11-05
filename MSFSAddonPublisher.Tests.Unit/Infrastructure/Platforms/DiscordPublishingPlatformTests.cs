@@ -2,6 +2,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Options;
 using MSFSAddonPublisher.Domain.Entities;
 using MSFSAddonPublisher.Domain.Enums;
 using MSFSAddonPublisher.Domain.ValueObjects;
@@ -16,7 +17,7 @@ public sealed class DiscordPublishingPlatformTests
     {
         var handler = new StubHandler(_ => new HttpResponseMessage(HttpStatusCode.NoContent));
         var client = new HttpClient(handler);
-        var platform = new DiscordPublishingPlatform(client, new DiscordPublishingOptions { WebhookUrl = "https://discord.example/webhook" });
+        var platform = new DiscordPublishingPlatform(client, Options.Create(new DiscordPublishingOptions { WebhookUrl = "https://discord.example/webhook" }));
 
         var ok = await platform.ValidateCredentialsAsync();
         Assert.True(ok);
@@ -27,7 +28,7 @@ public sealed class DiscordPublishingPlatformTests
     {
         var handler = new StubHandler(_ => new HttpResponseMessage(HttpStatusCode.OK));
         var client = new HttpClient(handler);
-        var platform = new DiscordPublishingPlatform(client, new DiscordPublishingOptions { WebhookUrl = "https://discord.example/webhook" });
+        var platform = new DiscordPublishingPlatform(client, Options.Create(new DiscordPublishingOptions { WebhookUrl = "https://discord.example/webhook" }));
 
         var addons = new[] { CreateAddon("A1"), CreateAddon("A2") };
         var result = await platform.PublishAsync(addons, CancellationToken.None);
@@ -42,7 +43,7 @@ public sealed class DiscordPublishingPlatformTests
     {
         var handler = new StubHandler(_ => new HttpResponseMessage(HttpStatusCode.BadRequest) { ReasonPhrase = "Bad" });
         var client = new HttpClient(handler);
-        var platform = new DiscordPublishingPlatform(client, new DiscordPublishingOptions { WebhookUrl = "https://discord.example/webhook" });
+        var platform = new DiscordPublishingPlatform(client, Options.Create(new DiscordPublishingOptions { WebhookUrl = "https://discord.example/webhook" }));
 
         var result = await platform.PublishAsync(new[] { CreateAddon("A1") }, CancellationToken.None);
 
@@ -54,7 +55,7 @@ public sealed class DiscordPublishingPlatformTests
     public void Ctor_NoWebhook_Throws()
     {
         var client = new HttpClient(new StubHandler(_ => new HttpResponseMessage(HttpStatusCode.OK)));
-        Assert.Throws<InvalidOperationException>(() => new DiscordPublishingPlatform(client, new DiscordPublishingOptions { WebhookUrl = "" }));
+        Assert.Throws<InvalidOperationException>(() => new DiscordPublishingPlatform(client, Options.Create(new DiscordPublishingOptions { WebhookUrl = "" })));
     }
 
     private static Addon CreateAddon(string title)
